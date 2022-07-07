@@ -11,7 +11,7 @@ public class controleCall {
 		Scanner sc = new Scanner(System.in);
 
 		System.out.print("Quantos minutos totais foram usados este mês? ");
-		int minutos = sc.nextFloat();
+		float minutos = sc.nextFloat();
 
 		if (minutos > 100) {
 			float excedente = minutos - 100;
